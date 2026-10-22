@@ -1,0 +1,11 @@
+{
+  "synthetic_only": true,
+  "samples": 150,
+  "accepted": 60,
+  "rejected": 90,
+  "mean_error_before_pct": 12.325,
+  "mean_error_accepted_pct": 6.003,
+  "p95_error_before_pct": 33.369,
+  "p95_error_accepted_pct": 13.622,
+  "note": "После фильтра сравнивается подмножество принятых снимков. Это отбраковка, а не исправление всех замеров."
+}

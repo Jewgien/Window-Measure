@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "Kivy": "2.3.1",
+    "numpy": "2.3.5",
+    "opencv-python-headless": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "pytest": "9.1.1"
+  },
+  "pytest": "25 passed",
+  "desktop_smoke": "passed: automatic detection, calculation, save, reopen, export, small window",
+  "android_apk_built": false,
+  "physical_device_tested": false,
+  "real_measurements_completed": false,
+  "remote_repository_created": false,
+  "version": "0.2.0",
+  "automatic_detection": "3 synthetic scenes; outer frame may be selected; no real-scene validation"
+}
