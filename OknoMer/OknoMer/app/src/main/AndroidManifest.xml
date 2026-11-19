@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Android 10 AOSP Camera2 also expects callers to have a nonempty permission list. -->
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-feature android:name="android.hardware.camera" android:required="false"/>
+  <application android:label="ОкноМер" android:icon="@drawable/ic_window" android:theme="@style/OknoTheme" android:allowBackup="false">
+    <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+    <provider android:name=".CaptureProvider" android:authorities="${applicationId}.capture" android:exported="false" android:grantUriPermissions="true"/>
+  </application>
+</manifest>

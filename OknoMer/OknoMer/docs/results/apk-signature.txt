@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=OknoMer Android
+Signer #1 certificate SHA-256 digest: 7abe0c4cd9cfa3be8a4e966caf2071e46bd9560c50c07b0525f504d9c007fd57
+Signer #1 certificate SHA-1 digest: 82f4b86e2c725f9b29b9c5d2ee178daa1edba645
+Signer #1 certificate MD5 digest: 220a89b15730933907a6dfd579e66819
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: d87858946a0d273cf272d84a008a09ab60393bd64ac2f279e2f73615c4afafd0
+Signer #1 public key SHA-1 digest: 4b64c3d05ed87770c20c5d6ca2210e81d7d64bd2
+Signer #1 public key MD5 digest: e0d60567432830819d594910ee929e58

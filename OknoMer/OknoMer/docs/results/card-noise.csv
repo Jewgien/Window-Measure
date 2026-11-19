@@ -1,0 +1,5 @@
+﻿scene;trials;old_valid;old_median_pct;old_p95_pct;new_valid;new_median_pct;new_p95_pct
+card;100;83;43.958;2697.086;100;2.610;4.798
+card-portrait;100;62;45.713;893.607;95;2.375;5.768
+card-rotated;100;73;45.363;1046.217;100;2.338;5.460
+card-inside;100;70;37.749;594.614;100;2.703;5.859

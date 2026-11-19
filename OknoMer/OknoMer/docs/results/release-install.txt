@@ -1,0 +1,23 @@
+    versionName=0.3.0
+    firstInstallTime=2026-11-18 12:52:42
+Performing Streamed Install
+Success
+Starting: Intent { cmp=org.student.oknomer/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: org.student.oknomer/.MainActivity
+TotalTime: 6762
+WaitTime: 6897
+Complete
+    versionName=0.4.0
+    firstInstallTime=2026-11-18 12:52:42
+
+Обновление тем же ключом до сборки 5
+    versionCode=4 minSdk=29 targetSdk=35
+    versionName=0.4.0
+    firstInstallTime=2026-11-18 12:52:42
+Performing Streamed Install
+Success
+    versionCode=5 minSdk=29 targetSdk=35
+    versionName=0.4.0
+    firstInstallTime=2026-11-18 12:52:42

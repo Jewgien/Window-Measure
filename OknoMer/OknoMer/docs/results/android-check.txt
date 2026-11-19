@@ -1,0 +1,38 @@
+
+CASE front baseline=1200.0x1500.0
+front exact=1200.0x1500.0 auto=1246.5x1556.1 contours=4
+CASE angle_small baseline=1055.9x1406.4
+angle_small exact=1200.0x1500.0 auto=1256.7x1563.0 contours=3
+CASE angle_large baseline=929.9x1316.7
+angle_large exact=1200.0x1500.0 auto=1246.2x1551.5 contours=3
+blank rejected
+card found ref=[[290,631],[350,631],[350,669],[290,669]] openings=4
+CASE card baseline=1200.0x1500.0
+card exact=1200.0x1500.0 auto=1254.0x1547.0 max corner error=0.11423221962309818
+card-portrait found ref=[[333.8962388585851,605.5130932691155],[369.47130179987045,604.2794856313342],[373.6957330085063,662.3930379880405],[337.8403437056588,664.2712638740087]] openings=2
+CASE card-portrait baseline=1084.6x1426.2
+card-portrait exact=1200.0x1500.0 auto=1240.2x1545.6 max corner error=0.9566596382118598
+card-rotated found ref=[[330.32604643816603,603.453355492956],[383.30093593064237,621.9734447580649],[372.5725558961082,656.8765257122213],[319.54978949302864,638.5121963737031]] openings=5
+CASE card-rotated baseline=1055.9x1424.8
+card-rotated exact=1200.0x1500.0 auto=1248.6x1539.8 max corner error=0.8324250363754536
+card-inside found ref=[[684.9957920901144,730.5549299620773],[737.0851012613108,716.5760501284574],[746.7947635786048,751.5869288148051],[694.6727127380337,765.9403625792552]] openings=6
+CASE card-inside baseline=1177.3x1479.1
+card-inside exact=1200.0x1500.0 auto=1248.6x1538.3 max corner error=0.8249390204335452
+Invalid input: missing, incomplete, crossing, duplicate, out-of-image and undersized references rejected
+NOISE card n=100 old_valid=83 old_median_pct=43.958 old_p95_pct=2697.086 new_valid=100 new_median_pct=2.610 new_p95_pct=4.798
+NOISE card-portrait n=100 old_valid=62 old_median_pct=45.713 old_p95_pct=893.607 new_valid=95 new_median_pct=2.375 new_p95_pct=5.768
+NOISE card-rotated n=100 old_valid=73 old_median_pct=45.363 old_p95_pct=1046.217 new_valid=100 new_median_pct=2.338 new_p95_pct=5.460
+NOISE card-inside n=100 old_valid=70 old_median_pct=37.749 old_p95_pct=594.614 new_valid=100 new_median_pct=2.703 new_p95_pct=5.859
+demo opened
+manual corner drag and recalculate
+saved record reopened after activity restart
+ZIP: CSV, JSON, 1 JPEG
+UI: reference selection, demonstration, manual card, save, legacy A4 and export
+ALL PASSED
+
+
+
+Persisted object, measurement and photograph reopened after an external force-stop
+ALL PASSED
+
+

@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'org.student.oknomer'
+    compileSdk 35
+    buildToolsVersion '35.0.0'
+
+    defaultConfig {
+        applicationId 'org.student.oknomer'
+        minSdk 29
+        targetSdk 35
+        versionCode 5
+        versionName '0.4.0'
+        testInstrumentationRunner 'org.student.oknomer.Verify'
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-debug'
+        }
+    }
+    buildFeatures { buildConfig true }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packaging {
+        jniLibs { useLegacyPackaging = true }
+    }
+}
+dependencies {
+    implementation 'org.opencv:opencv:4.12.0'
+}
